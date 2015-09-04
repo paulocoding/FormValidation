@@ -1,12 +1,12 @@
 body {
-	background-color: #DDD;
+	background-color: #eaf0f2;
 	color: #333;
 	font-family: 'Lato', Sans-serif;
 }
 
 main {
-  background-color: #EEE;
-  width: 900px;
+  background-color: #fff4e8;
+  width: 850px;
   height: 600px;
   margin: 50px auto;
   padding: 10px 30px;
@@ -26,11 +26,11 @@ form {
 	margin-top: 20px;
 }
 input, select {
-	display: block;
+	display: inline-block;
 	height: 30px;
 	width: 150px;
 	font-weight: 600;
-	margin: 15px 0 15px 15px;	
+	margin: 0 0 15px 15px;	
 	padding: 0 0 0 5px;
 	border: 1px solid #2299cc;
 }
@@ -43,6 +43,24 @@ input, select {
 #submit-btn:hover {
 	color: #ddf5ff;
 	background-color: #2299cc;
+}
+
+#tel {
+	width: 90px;
+}
+
+.l-35 {
+	float: left;
+	width: 25%;
+	margin: 0;
+	padding: 0;
+}
+
+.l-65 {
+	float: left;
+	width: 75%;
+	margin: 0;
+	padding: 0;
 }
 
 .input-l {
@@ -60,16 +78,9 @@ input, select {
 	margin: 15px 20px 15px 20px;
 	padding: 0;
 }
-.l-35 {
-	float: left;
-	width: 30%;
-	margin: 0;
-	padding: 0;
-}
 
-.l-65 {
-	float: left;
-	width: 70%;
-	margin: 0;
-	padding: 0;
+.form-error {
+	padding: 0 0 0 10px;
+	color: red;
+	font-weight: 600;
 }

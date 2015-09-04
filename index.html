@@ -14,26 +14,27 @@
           <p class="formLbl">username : </p>
           <p class="formLbl">password : </p>
           <p class="formLbl">email : </p>
+          <p class="formLbl">phone : </p>
           <p class="formLbl">forename : </p>
           <p class="formLbl">surname : </p>
           <p class="formLbl">gender : </p>
-          <p class="formLbl">phone : </p>
       </div>
       <div class="l-65">
         <form action="">
-            <p><input type="text" name="username" /></p>
-            <p><input type="password" name="pw" /></p>
-            <p><input type="email" name="email" class="input-l"/></p>
-            <p><input type="text" name="fname" /></p>
-            <p><input type="text" name="sname" /></p>
+            <p><input type="text" name="username" id="username"/><span class="form-error"></span></p>
+            <p><input type="password" name="pw" id="pw"/><span class="form-error"></span></p>
+            <p><input type="email" name="email" class="input-l" id="email"/><span class="form-error"></span></p>
+            <p><input type="tel" name="tel" id="tel" maxlength="10"/><span class="form-error"></span></p>
+            <p><input type="text" name="fname" /><span class="form-error"></span></p>
+            <p><input type="text" name="sname" /><span class="form-error"></span></p>
             <p>
-                <select  name="gender">
+                <select  name="gender" id="gender">
                     <option value="">Select</option>
                     <option value="male">Male</option>
                     <option value="female">Female</option>
                 </select>
+                <span class="form-error"></span>
             </p>
-            <p><input type="tel" name="tel" /></p>
             <p><input type="submit" value="submit" id="submit-btn"/></p>
         </form>
       </div>
